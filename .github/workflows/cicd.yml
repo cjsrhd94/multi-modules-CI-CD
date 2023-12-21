@@ -3,7 +3,8 @@ name: CI-CD-test # 1 깃허브 액션 이름 변경
 env:
   S3_BUCKET_NAME: cjsrhd94-test
   AWS_REGION: ap-northeast-2
-
+  CODEDEPLOY_NAME: github-actions
+  CODEDEPLOY_GROUP: github-actions-group
 on:
   push:
     branches: [ main ]
